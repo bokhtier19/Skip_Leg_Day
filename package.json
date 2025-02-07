@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite --host",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "vite build && git subtree push --prefix dist origin gh-pages"
+},
+
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.47",
     "motion": "^11.18.2",

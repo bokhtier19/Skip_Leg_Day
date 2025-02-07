@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite --host",
+  "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "deploy": "vite build && git subtree push --prefix dist origin gh-pages"
-},
-
+  "deploy": "vite build && gh-pages -d dist"
+}
+,
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.47",
     "motion": "^11.18.2",
@@ -29,6 +29,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.3.0",
     "globals": "^15.12.0",
     "postcss": "^8.4.49",
     "tailwind-clip-path": "^1.0.0",

@@ -35,9 +35,6 @@ const Navbar = () => {
                             <NavHashLink to="#home">OUR TEAM</NavHashLink>
                         </motion.div>
                         <motion.div whileHover={{ y: -10 }}>
-                            <NavHashLink to="#home">PAGES</NavHashLink>
-                        </motion.div>
-                        <motion.div whileHover={{ y: -10 }}>
                             <NavHashLink to="#home">CONTACT</NavHashLink>
                         </motion.div>
                     </ul>
